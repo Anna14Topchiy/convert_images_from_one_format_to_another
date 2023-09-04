@@ -1,17 +1,17 @@
 from PIL import Image
 
 # open initial image
-initial_image_path_1 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\diagrama_don.png"
-initial_image_path_2 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\diagrama_luh.png"
-initial_image_path_3 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\don+luh.jpg"
-initial_image_path_4 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\don_correlation.png"
-initial_image_path_5 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\don_train_and_test_models.png"
-initial_image_path_6 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\don_train_test.png"
-initial_image_path_7 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\ires_don_2012_2018.jpg"
-initial_image_path_8 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\ires_luh_2012_2018.jpg"
-initial_image_path_9 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\luh_correlation.png"
-initial_image_path_10 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\luh_train_and_test_models.png"
-initial_image_path_11 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_images\luh_train_test.png"
+initial_image_path_1 = "*****.png"
+initial_image_path_2 = "*****.png"
+initial_image_path_3 = "*****.png"
+initial_image_path_4 = "*****.png"
+initial_image_path_5 = "*****.png"
+initial_image_path_6 = "*****.png"
+initial_image_path_7 = "*****.png"
+initial_image_path_8 = "*****.png"
+initial_image_path_9 = "*****.png"
+initial_image_path_10 = "*****.png"
+initial_image_path_11 = "*****.png"
 
 
 image_1 = Image.open(initial_image_path_1)
@@ -40,17 +40,17 @@ tiff_image_10 = image_10.copy()
 tiff_image_11 = image_11.copy()
 
 
-save_tiff_path_1 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\diagrama_don.tiff"
-save_tiff_path_2 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\diagrama_luh.tiff"
-save_tiff_path_3 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\don+luh.tiff"
-save_tiff_path_4 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\don_correlation.tiff"
-save_tiff_path_5 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\don_train_and_test_models.tiff"
-save_tiff_path_6 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\don_train_test.tiff"
-save_tiff_path_7 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\ires_don_2012_2018.tiff"
-save_tiff_path_8 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\ires_luh_2012_2018.tiff"
-save_tiff_path_9 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\luh_correlation.tiff"
-save_tiff_path_10 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\luh_train_and_test_models.tiff"
-save_tiff_path_11 = "D:\disk_D\аспирантура\статья-про пожары\convert_images_from_png_to_tiff\converting\initial_to_tiff\luh_train_test.tiff"
+save_tiff_path_1 = "*****.tiff"
+save_tiff_path_2 = "*****.tiff"
+save_tiff_path_3 = "*****.tiff"
+save_tiff_path_4 = "*****.tiff"
+save_tiff_path_5 ="*****.tiff"
+save_tiff_path_6 = "*****.tiff"
+save_tiff_path_7 = "*****.tiff"
+save_tiff_path_8 = "*****.tiff"
+save_tiff_path_9 = "*****.tiff"
+save_tiff_path_10 = "*****.tiff"
+save_tiff_path_11 = "*****.tiff"
 
 
 tiff_image_1.save(save_tiff_path_1, dpi=(300, 300))
